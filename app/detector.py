@@ -2,7 +2,6 @@ import cv2
 import requests
 from ultralytics import YOLO
 
-# load model pcb
 model = YOLO("best.pt")
 
 cap = cv2.VideoCapture(0)

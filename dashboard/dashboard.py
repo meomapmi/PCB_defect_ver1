@@ -4,7 +4,6 @@ from streamlit_autorefresh import st_autorefresh
 
 st.title("AI Vision Dashboard")
 
-# refresh mỗi 1 giây
 st_autorefresh(interval=1000, key="datarefresh")
 
 try:

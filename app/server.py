@@ -36,11 +36,9 @@ def add_detection(data: List[dict]):
 
     global latest_result
 
-    # chỉ lưu nếu có defect
     if len(data) > 0:
         latest_result.extend(data)
 
-        # giới hạn list
         if len(latest_result) > 200:
             latest_result = latest_result[-200:]
 
